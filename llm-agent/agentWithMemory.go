@@ -1,4 +1,4 @@
-package llmAgent
+package LLMAgent
 
 import (
 	"bufio"
@@ -18,7 +18,7 @@ import (
 )
 
 func AgentWithMemory() {
-	openAIClient := openai.NewClient("")
+	openAIClient := openai.NewClient("OPENAI-KEY")
 	var reader *bufio.Reader = bufio.NewReader(os.Stdin)
 	memory := &memory.Memory{}
 	c := colly.NewCollector()
