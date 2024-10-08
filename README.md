@@ -1,6 +1,6 @@
-# AI-Powered Agents with Memory in Go
+# LLM-Powered Agents with Memory in Go
 
-This repository demonstrates how to build AI-powered agents with memory using Go. The agents are designed to handle various tasks such as chat interactions, solving math equations, and web searches, while maintaining conversational context.
+This repository demonstrates how to build LLM-powered agents with memory using Go. The agents are designed to handle various tasks such as chat interactions, solving math equations, and web searches, while maintaining conversational context.
 
 ## Features
 - **LLM Chat**: Simple chatbot interaction using language models.
