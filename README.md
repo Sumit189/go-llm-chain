@@ -3,7 +3,6 @@
 This repository demonstrates how to build LLM-powered agents with memory using Go. The agents are designed to handle various tasks such as chat interactions, solving math equations, and web searches, while maintaining conversational context.
 
 ## Features
-- **LLM Chat**: Simple chatbot interaction using language models.
 - **LLM Chat with Memory**: Chatbot that remembers previous conversations, providing more contextual responses.
 - **Agent with Memory**: Autonomous agent capable of solving problems and automating tasks, such as web searches and math problem-solving, with memory retention.
 
