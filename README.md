@@ -10,8 +10,7 @@ This repository demonstrates how to build LLM-powered agents with memory using G
 <pre>
 root/
 │   main.go             # Main entry point to select the desired functionality.
-└───agents/
-    │   llmChat.go           # Chat interaction with LLM.
+└───llm-agent/
     │   llmChatWithMemory.go # Chat interaction with memory.
     │   agentWithMemory.go   # Automated agent with memory to solve problems.
 </pre>
