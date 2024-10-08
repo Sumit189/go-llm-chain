@@ -11,8 +11,7 @@ This repository demonstrates how to build AI-powered agents with memory using Go
 <pre>
 root/
 │   main.go             # Main entry point to select the desired functionality.
-└───agents/
-    │   llmChat.go           # Chat interaction with LLM.
+└───llm-agent/
     │   llmChatWithMemory.go # Chat interaction with memory.
     │   agentWithMemory.go   # Automated agent with memory to solve problems.
 </pre>
@@ -21,7 +20,7 @@ root/
 
 ### Prerequisites
 - Go version 1.23 or higher
-- OpenAI API key for LLM interactions (optional depending on your implementation)
+- OpenAI API key for LLM interactions
 
 ### Installation
 1. Clone the repository:
@@ -39,9 +38,8 @@ root/
     go run main.go
     ```
 2. Select the desired functionality:
-    - To interact with the LLM chatbot, enter `1`.
-    - To interact with the LLM chatbot with memory, enter `2`.
-    - To use the agent with memory, enter `3`.
+    - To interact with the LLM chatbot with memory, enter `1`.
+    - To utilize the Agent (with Web Search capabilities and Equation Evaluation) that remembers past interactions, enter `2`.
 
 ### Contributing
 Feel free to fork the repository and submit pull requests for any improvements or new features!
